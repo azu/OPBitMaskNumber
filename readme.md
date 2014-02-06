@@ -1,4 +1,4 @@
-# OPBitMaskNumber
+# OPBitMaskNumber [![Build Status](https://travis-ci.org/azu/OPBitMaskNumber.png?branch=master)](https://travis-ci.org/azu/OPBitMaskNumber)
 
 OPBitMaskNumber handling bit-mask library.
 
@@ -10,7 +10,23 @@ pod 'OPBitMaskNumber'
 
 ## Usage
 
-- [ ] Write usage instructions
+``` objc
+typedef NS_ENUM(NSInteger, TestMaskType) {
+    TestMaskTypeDefault = 1,
+    TestMaskTypeValue1,
+    TestMaskTypeValue2,
+    TestMaskTypeSubSub
+};
+
+OPBitMaskNumber *bitMaskNumber = [OPBitMaskNumber bitMaskNumberWithValue:@(0)];
+[bitMaskNumber maskingBitToOnAtIndex:TestMaskTypeDefault];// bit to on
+[bitMaskNumber maskingBitToOffAtIndex:TestMaskTypeDefault]; // bit to off
+[bitMaskNumber togglingBitAtIndex:TestMaskTypeDefault];// toggle bit => bit to on
+[bitMaskNumber stateAtIndex:TestMaskTypeDefault];// bit state : YES
+bitMaskNumber.originalValue; // => 2^1 get total value
+```
+
+See `OPBitMaskNumberTests`
 
 ## Contributing
 
