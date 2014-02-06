@@ -19,11 +19,12 @@ typedef NS_ENUM(NSInteger, TestMaskType) {
 };
 
 OPBitMaskNumber *bitMaskNumber = [OPBitMaskNumber bitMaskNumberWithValue:@(0)];
+bitMaskNumber.originalValue; // => @0
 [bitMaskNumber maskingBitToOnAtIndex:TestMaskTypeDefault];// bit to on
 [bitMaskNumber maskingBitToOffAtIndex:TestMaskTypeDefault]; // bit to off
 [bitMaskNumber togglingBitAtIndex:TestMaskTypeDefault];// toggle bit => bit to on
 [bitMaskNumber stateAtIndex:TestMaskTypeDefault];// bit state : YES
-bitMaskNumber.originalValue; // => 2^1 get total value
+bitMaskNumber.originalValue; // => @(2^1) get total value
 ```
 
 See `OPBitMaskNumberTests`
