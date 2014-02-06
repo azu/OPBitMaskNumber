@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author             = { "azu" => "info@efcl.info" }
-  s.platform     = :ios,:osx
+  s.platform     = :ios
   s.source       = {
     :git => "https://github.com/azu/OPBitMaskNumber.git",
     :tag => s.version.to_s
