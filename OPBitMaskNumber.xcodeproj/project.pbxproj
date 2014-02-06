@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C01DF32704F5CC03BD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C60944F4C9403417F7E8 /* Foundation.framework */; };
+		17B5C1E797BD1BB6F280C242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CB9B67CF96B287442F41 /* InfoPlist.strings */; };
+		17B5C20A56B77E212E184D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C60944F4C9403417F7E8 /* Foundation.framework */; };
+		17B5C7DAF8AAF65E98E09599 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C91CA0C886D231F8E318 /* UIKit.framework */; };
+		17B5C8964675716A5D3B5290 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C54F31E6572CD7F79B5A /* XCTest.framework */; };
+		17B5CD64A3FB2203AFA0DC97 /* libOPBitMaskNumber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CF7371BC6F3648C4A8B7 /* libOPBitMaskNumber.a */; };
+		17B5CDFDF158BAF524F3E8FB /* OPBitMaskNumber.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17B5C0365D406FB0C43DEA87 /* OPBitMaskNumber.h */; };
+		17B5CF92B7EB109F74FEE88D /* OPBitMaskNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA3256D800B3FB2BA14B /* OPBitMaskNumber.m */; };
+		17B5CFDD146EF99C7618B228 /* OPBitMaskNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C08A3A032C985E5B2573 /* OPBitMaskNumberTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5C6C40F0753EE88B6FCE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C359E006034AB0F495F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5CA32EB46E5E1844EC58F;
+			remoteInfo = OPBitMaskNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17B5C1DDF9691552199E8B3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				17B5CDFDF158BAF524F3E8FB /* OPBitMaskNumber.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17B5C0365D406FB0C43DEA87 /* OPBitMaskNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPBitMaskNumber.h; sourceTree = "<group>"; };
+		17B5C08A3A032C985E5B2573 /* OPBitMaskNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPBitMaskNumberTests.m; sourceTree = "<group>"; };
+		17B5C1B71FEF7546B4B89A40 /* OPBitMaskNumberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "OPBitMaskNumberTests-Info.plist"; sourceTree = "<group>"; };
+		17B5C54F31E6572CD7F79B5A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17B5C60944F4C9403417F7E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5C67A739C568B47012705 /* OPBitMaskNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OPBitMaskNumber-Prefix.pch"; sourceTree = "<group>"; };
+		17B5C74065265FDC2B62A1A9 /* OPBitMaskNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPBitMaskNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C91CA0C886D231F8E318 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5CA3256D800B3FB2BA14B /* OPBitMaskNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPBitMaskNumber.m; sourceTree = "<group>"; };
+		17B5CEDF6A47BDC798C6005C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CF04745E7A9A2A2C5220 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5CF7371BC6F3648C4A8B7 /* libOPBitMaskNumber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOPBitMaskNumber.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C454EAC3F711AB79DF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C8964675716A5D3B5290 /* XCTest.framework in Frameworks */,
+				17B5C20A56B77E212E184D35 /* Foundation.framework in Frameworks */,
+				17B5C7DAF8AAF65E98E09599 /* UIKit.framework in Frameworks */,
+				17B5CD64A3FB2203AFA0DC97 /* libOPBitMaskNumber.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C8041ADD7D90B7D76BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C01DF32704F5CC03BD51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C14654297507ED65F183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C1B71FEF7546B4B89A40 /* OPBitMaskNumberTests-Info.plist */,
+				17B5CB9B67CF96B287442F41 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C7C94F5D23565883547E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C67A739C568B47012705 /* OPBitMaskNumber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C8224F0F8A5734A34E3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C60944F4C9403417F7E8 /* Foundation.framework */,
+				17B5C54F31E6572CD7F79B5A /* XCTest.framework */,
+				17B5C91CA0C886D231F8E318 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5CBE158E48B68CDBDE6B7 /* OPBitMaskNumber */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C7C94F5D23565883547E /* Supporting Files */,
+				17B5C0365D406FB0C43DEA87 /* OPBitMaskNumber.h */,
+				17B5CA3256D800B3FB2BA14B /* OPBitMaskNumber.m */,
+			);
+			path = OPBitMaskNumber;
+			sourceTree = "<group>";
+		};
+		17B5CCE1565873A99834C028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CF7371BC6F3648C4A8B7 /* libOPBitMaskNumber.a */,
+				17B5C74065265FDC2B62A1A9 /* OPBitMaskNumberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5CE1AB88ED75BB5C838B4 /* OPBitMaskNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C14654297507ED65F183 /* Supporting Files */,
+				17B5C08A3A032C985E5B2573 /* OPBitMaskNumberTests.m */,
+			);
+			path = OPBitMaskNumberTests;
+			sourceTree = "<group>";
+		};
+		17B5CF9C6D65859D73075D88 = {
+			isa = PBXGroup;
+			children = (
+				17B5CCE1565873A99834C028 /* Products */,
+				17B5C8224F0F8A5734A34E3A /* Frameworks */,
+				17B5CBE158E48B68CDBDE6B7 /* OPBitMaskNumber */,
+				17B5CE1AB88ED75BB5C838B4 /* OPBitMaskNumberTests */,
+				17B5CF04745E7A9A2A2C5220 /* readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C93E5C81B5A61FC61CEE /* OPBitMaskNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C95D260E21C6E54F3561 /* Build configuration list for PBXNativeTarget "OPBitMaskNumberTests" */;
+			buildPhases = (
+				17B5C2FD59C8E10E2E3D0038 /* Sources */,
+				17B5C454EAC3F711AB79DF87 /* Frameworks */,
+				17B5CF3CAD23E9D142D4A7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5CB337224A70BADBBABD4 /* PBXTargetDependency */,
+			);
+			name = OPBitMaskNumberTests;
+			productName = OPBitMaskNumberTests;
+			productReference = 17B5C74065265FDC2B62A1A9 /* OPBitMaskNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17B5CA32EB46E5E1844EC58F /* OPBitMaskNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5CC999C09120AF72DB3ED /* Build configuration list for PBXNativeTarget "OPBitMaskNumber" */;
+			buildPhases = (
+				17B5CCEC8979AF5EA596AEB0 /* Sources */,
+				17B5C8041ADD7D90B7D76BE8 /* Frameworks */,
+				17B5C1DDF9691552199E8B3E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPBitMaskNumber;
+			productName = OPBitMaskNumber;
+			productReference = 17B5CF7371BC6F3648C4A8B7 /* libOPBitMaskNumber.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C359E006034AB0F495F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5CD69FBBAF8E13C5FAC24 /* Build configuration list for PBXProject "OPBitMaskNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5CF9C6D65859D73075D88;
+			productRefGroup = 17B5CCE1565873A99834C028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5CA32EB46E5E1844EC58F /* OPBitMaskNumber */,
+				17B5C93E5C81B5A61FC61CEE /* OPBitMaskNumberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5CF3CAD23E9D142D4A7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C1E797BD1BB6F280C242 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C2FD59C8E10E2E3D0038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CFDD146EF99C7618B228 /* OPBitMaskNumberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CCEC8979AF5EA596AEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CF92B7EB109F74FEE88D /* OPBitMaskNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5CB337224A70BADBBABD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5CA32EB46E5E1844EC58F /* OPBitMaskNumber */;
+			targetProxy = 17B5C6C40F0753EE88B6FCE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5CB9B67CF96B287442F41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5CEDF6A47BDC798C6005C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C00E903CFD2A69986BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OPBitMaskNumber.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPBitMaskNumber/OPBitMaskNumber-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17B5C0F9660BD952B3EA327E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C56C1809A4FBEBE4D3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OPBitMaskNumber.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPBitMaskNumber/OPBitMaskNumber-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		17B5C94176B8D1AC1D36FF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPBitMaskNumber/OPBitMaskNumber-Prefix.pch";
+				INFOPLIST_FILE = "OPBitMaskNumberTests/OPBitMaskNumberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		17B5CBC37A7860964A2D3B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B5CD1C914C1F3B9AB7E1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPBitMaskNumber/OPBitMaskNumber-Prefix.pch";
+				INFOPLIST_FILE = "OPBitMaskNumberTests/OPBitMaskNumberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C95D260E21C6E54F3561 /* Build configuration list for PBXNativeTarget "OPBitMaskNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C94176B8D1AC1D36FF92 /* Release */,
+				17B5CD1C914C1F3B9AB7E1AC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B5CC999C09120AF72DB3ED /* Build configuration list for PBXNativeTarget "OPBitMaskNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C56C1809A4FBEBE4D3FB /* Release */,
+				17B5C00E903CFD2A69986BB0 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B5CD69FBBAF8E13C5FAC24 /* Build configuration list for PBXProject "OPBitMaskNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C0F9660BD952B3EA327E /* Release */,
+				17B5CBC37A7860964A2D3B44 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5C359E006034AB0F495F5 /* Project object */;
+}
